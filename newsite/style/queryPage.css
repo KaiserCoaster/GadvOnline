@@ -1,0 +1,254 @@
+
+
+li.page_title {
+	margin: 30px 3% 0px 4%;
+	padding: 0px;
+	list-style-type: none;
+	font-size: 25px;
+	font-family: 'Open Sans', Verdana;
+}
+
+li.sublinks {
+	margin: 0px 3% 30px 4%;
+	padding: 0px;
+	font-size: 13px;
+	list-style-type: none;
+}
+
+li.entry {
+	/*margin: 0px 30px 50px 40px;*/
+	/*border:1px solid #1b4c95;*/
+	border: 1px solid #41659B;
+	border-bottom-color: #092146;
+	border-radius:2px;
+	background-color: #eee;
+	list-style-type: none;
+	position: relative;
+}
+
+li.noentries {
+	margin: 0px 5% 30px 6%;
+	font-style: italic;
+}
+
+.entry .headerbar {
+	font-size:18px;
+	border-bottom: 1px solid #1b4c95;
+	background-color:#0D8FE6;
+	color: #fff;
+	box-shadow: inset 1px 1px 0px #FFFFFF;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	font-family: 'Open Sans', Verdana; 
+	width: 100%;
+	text-shadow: 1px 1px 0px rgba(0,0,0,.8);
+}
+
+.entry .headerbar_container {
+	padding: 5px 0px;
+	display: table;
+	width: 100%;
+}
+
+.entry .body {
+	padding:5px 15px 0px;
+}
+
+.entry .body_keywords_divider {
+	clear: both;
+}
+
+.entry .keywords {
+	font-size: 12px;
+	color: #888;
+	padding: 15px 0px 8px 10px;
+	margin: 0px;
+	list-style-type: none;
+	display: table-cell;
+	vertical-align: bottom;
+}
+
+.entry .keywords li {
+	margin: 6px 6px 0px 0px;
+	padding: 0px;
+	list-style-type: none;
+	float: left;
+}
+
+.entry .keywords li.clear {
+	float: none;
+	clear: both;
+}
+
+.entry .keywords a {
+	margin:0px;
+	padding: 2px 10px;
+	display: block;
+	border: 1px solid #1975EB;
+	text-align: center;
+	/*font-size: 11px;*/
+	font-size: 14px;
+	background-color: #C0E1FF;
+	color: #444;
+	border-radius: 2px;
+	box-shadow: inset 1px 1px 0px #fff;
+	text-shadow: 1px 1px 0px #F0FAFF;
+	text-decoration: none;
+	font-family: 'Open Sans', 'Verdana';
+}
+
+.entry .keywords a:hover {
+	color: #222;
+	box-shadow: inset -1px -1px 0px #fff;
+	background-color: #B3DBFF;
+}
+
+.entry .bottom {
+	display: table;
+	width: 100%;
+}
+
+.entry .info_holder {
+	display: table-cell;
+	text-align: right;
+	vertical-align: bottom;
+	position: relative;
+}
+
+.entry .entry_info {
+	color: #444;
+	border-top:1px solid #1b4c95;
+	background-color: #DBDBDB;
+	display: none;
+}
+
+.entry .entry_info .info_table {
+	display: table;
+	width: 100%;
+}
+
+.entry .entry_info .info_left {
+	display: table-cell;
+	vertical-align: top;
+	width: 55%;
+	border-right: 1px solid #b8b8b8;
+	border-top: 1px solid #fff;
+}
+
+.entry .entry_info .info_right {
+	display: table-cell;
+	vertical-align: top;
+	width: 45%;
+	padding: 0px;
+	border-left: 1px solid #fff;
+	color: #666;
+}
+
+.entry .entry_info .info_right .edit_history {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+.entry .entry_info .info_right .edit_history li {
+	margin: 0px;
+	padding: 10px 15px;
+	list-style-type: none;
+	font-family: Arial;
+	font-size: 12px;
+	border-bottom: 1px solid #b8b8b8;
+	border-top: 1px solid #fff;
+}
+
+.entry .entry_info .info_right .edit_history li.b1 {
+	/*background-color: #dbdbdb;*/
+}
+
+.entry .entry_info .info_right .edit_history li.b2 {
+	/*background-color: #e7e7e7;*/
+}
+
+.entry .entry_info .info_right .edit_history li span {
+	float: right;
+}
+
+.entry .info_holder a {
+	display: block;
+	margin: 20px 10px 10px;
+	position: relative;
+}
+
+.entry .title {
+	display: table-cell;
+	padding-left: 10px;
+	list-style-type: none;
+}
+
+.entry .title a {
+	font-size:18px;
+	color: #fff;
+	font-family: 'Open Sans', Verdana; 
+	text-shadow: 1px 1px 0px rgba(0,0,0,.8);
+	text-decoration: none;
+}
+
+.entry .title a:hover {
+	text-decoration: underline;
+}
+
+.entry .date {
+	display: table-cell;
+	padding-right: 8px;
+	margin-top: 2px;
+	text-shadow: none;
+	text-align: right;
+	white-space: nowrap;
+	list-style-type: none;
+}
+
+.entry .date a {
+	font-size: 15px;
+	color:#f9f9f9;
+	text-decoration: none;
+}
+
+.entry .date a:hover {
+	text-decoration: underline;
+}
+
+ul.page_numbers {
+	margin: 0px 40px 20px;
+	padding: 0px;
+	list-style-type: none;
+	display: table;
+}
+
+li.page_num, li.page_num_disabled {
+	margin: 0px;
+	padding: 2px;
+	list-style-type: none;
+	display: table-cell;
+}
+
+li.page_num a, li.page_num_disabled a {
+	padding: 3px 7px;
+	border: 1px solid #1b4c95;
+	color: #fff;
+	text-decoration: none;
+	box-shadow: inset 1px 1px 0px #fff;
+}
+
+li.page_num a {
+	background-color: #0D8FE6;
+	border: 1px solid #1b4c95;
+}
+
+li.page_num a:hover {
+	background-color: #0B87DA;
+}
+
+li.page_num_disabled a {
+	padding: 6px 10px;
+	background-color: #999;
+	border: 1px solid #444;
+}
