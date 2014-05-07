@@ -90,13 +90,13 @@ body {
 }
 
 #content {
-	background-color: rgba(246, 246, 246, 0.75);
+	background-color: rgba(239, 239, 239, 0.9);
 	height:100%;
 	display: table-cell;
 }
 
 #bottom {
-	background-color: rgba(246, 246, 246, 0.75);
+	background-color: rgba(239, 239, 239, 0.9);
 	display: table-cell;
 }
 
@@ -146,13 +146,15 @@ footer {
 }
 
 .left_bar {
-	background-color:#e3e3e3;
+	background-color:#efefef;
 	width:250px;
 	margin:0px;
 	padding:0px;
 	list-style-type:none;
 	display: table-cell;
 	vertical-align: top;
+	border-right: 1px solid #609ACD;
+	border-bottom: 1px solid #4D7EA9;
 }
 
 .left_bar li {
@@ -174,8 +176,8 @@ footer {
 	position: absolute;
 	top: 0px;
 	height:100%;
-	width: 12px;
-	right: -11px;
+	width: 13px;
+	right: -12px;
 	background-color: #1b4c95;
 }
 
@@ -193,7 +195,6 @@ footer {
 	padding:12px 10px 12px 10px;
 	display:block;
 	text-decoration:none;
-	border-bottom: 1px solid #f1f1f1;
 }
 
 .left_bar li a div {

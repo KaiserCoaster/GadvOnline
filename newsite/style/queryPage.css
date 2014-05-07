@@ -16,12 +16,10 @@ li.sublinks {
 }
 
 li.entry {
-	/*margin: 0px 30px 50px 40px;*/
-	/*border:1px solid #1b4c95;*/
-	border: 1px solid #41659B;
-	border-bottom-color: #092146;
+	border: 1px solid #c4c4c4;
+	border-bottom-color: #959595;
 	border-radius:2px;
-	background-color: #eee;
+	background-color: #FBFBFB;
 	list-style-type: none;
 	position: relative;
 }
@@ -33,10 +31,9 @@ li.noentries {
 
 .entry .headerbar {
 	font-size:18px;
-	border-bottom: 1px solid #1b4c95;
 	background-color:#0D8FE6;
 	color: #fff;
-	box-shadow: inset 1px 1px 0px #FFFFFF;
+	box-shadow: inset 1px 1px 0px #FBFBFB, inset -1px -1px 0px #FBFBFB;
 	border-top-left-radius: 2px;
 	border-top-right-radius: 2px;
 	font-family: 'Open Sans', Verdana; 
