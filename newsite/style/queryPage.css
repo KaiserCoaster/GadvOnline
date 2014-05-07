@@ -30,15 +30,12 @@ li.noentries {
 }
 
 .entry .headerbar {
-	font-size:18px;
 	background-color:#0D8FE6;
 	color: #fff;
-	box-shadow: inset 1px 1px 0px #FBFBFB, inset -1px -1px 0px #FBFBFB;
-	border-top-left-radius: 2px;
-	border-top-right-radius: 2px;
 	font-family: 'Open Sans', Verdana; 
-	width: 100%;
 	text-shadow: 1px 1px 0px rgba(0,0,0,.8);
+	border-radius: 4px;
+	border: 2px solid #FBFBFB;
 }
 
 .entry .headerbar_container {
@@ -81,23 +78,19 @@ li.noentries {
 	margin:0px;
 	padding: 2px 10px;
 	display: block;
-	border: 1px solid #1975EB;
+	border: 1px solid #21A1FF;
 	text-align: center;
-	/*font-size: 11px;*/
 	font-size: 14px;
-	background-color: #C0E1FF;
-	color: #444;
-	border-radius: 2px;
-	box-shadow: inset 1px 1px 0px #fff;
-	text-shadow: 1px 1px 0px #F0FAFF;
+	background-color: #FFF;
+	color: #21A1FF;
+	border-radius: 3px;
 	text-decoration: none;
 	font-family: 'Open Sans', 'Verdana';
 }
 
 .entry .keywords a:hover {
-	color: #222;
-	box-shadow: inset -1px -1px 0px #fff;
-	background-color: #B3DBFF;
+	color: #fff;
+	background-color: #33B5FF;
 }
 
 .entry .bottom {
@@ -179,10 +172,11 @@ li.noentries {
 	display: table-cell;
 	padding-left: 10px;
 	list-style-type: none;
+	padding-right: 30px;
 }
 
 .entry .title a {
-	font-size:18px;
+	font-size:19px;
 	color: #fff;
 	font-family: 'Open Sans', Verdana; 
 	text-shadow: 1px 1px 0px rgba(0,0,0,.8);
@@ -196,11 +190,12 @@ li.noentries {
 .entry .date {
 	display: table-cell;
 	padding-right: 8px;
-	margin-top: 2px;
 	text-shadow: none;
 	text-align: right;
 	white-space: nowrap;
 	list-style-type: none;
+	vertical-align: top;
+	padding-top: 2px;
 }
 
 .entry .date a {

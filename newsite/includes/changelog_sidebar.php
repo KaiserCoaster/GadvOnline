@@ -3,7 +3,7 @@
 			<li><div id="search_holder"><div id="artificial_searchbox"><input type="text" placeholder="Search" /></div></div></li>
 
 			<li><div class="header">Park Changelog<div><img src="images/arrow.png" /></div></div></li>
-			<li><a href="all.php" <?=($selected == 1) ? "class='selected'" : ""?> >Newsfeed</a></li>
+			<li><a href="/" <?=($selected == 1) ? "class='selected'" : ""?> >Newsfeed</a></li>
 			<li><a href="#" <?=($selected == 2) ? "class='selected'" : ""?> >Hot Topics</a></li>
 			<li><a href="#" <?=($selected == 3) ? "class='selected'" : ""?> >All Keywords</a></li>
 			<li><a href="#" <?=($selected == 4) ? "class='selected'" : ""?> >Advanced Search</a></li>

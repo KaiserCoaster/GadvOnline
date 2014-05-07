@@ -2,7 +2,7 @@
 error_reporting(-1);
 
 $selected = 3; 
-include('style/header.php'); 
+include('includes/header.php'); 
 
 require_once('../timelord/bin/settings.php');
 require_once('../timelord/bin/keywordListPage.php');
@@ -10,7 +10,7 @@ require_once('../timelord/bin/HTMLoutput.php');
 require_once('../timelord/bin/recentStories.php');
 
 $selected = 0;
-include('style/changelog_sidebar.php');
+include('includes/changelog_sidebar.php');
 
 
 
@@ -45,5 +45,5 @@ include('style/changelog_sidebar.php');
 
 
 <?php
-include('style/footer.php'); 
+include('includes/footer.php'); 
 ?>

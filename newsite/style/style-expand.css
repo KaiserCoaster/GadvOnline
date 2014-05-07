@@ -256,22 +256,19 @@ li.kw a {
 	margin:0px;
 	padding: 6px 30px;
 	display: block;
-	border: 1px solid #1975EB;
+	border: 1px solid #21A1FF;
 	text-align: center;
 	font-size: 20px;
-	background-color: #C0E1FF;
-	color: #444;
+	background-color: #FBFBFB;
+	color: #21A1FF;
 	border-radius: 3px;
-	box-shadow: inset 1px 1px 0px #fff;
-	text-shadow: 1px 1px 0px #F0FAFF;
 	text-decoration: none;
 	font-family: 'Open Sans', 'Verdana';
 }
 
 li.kw a:hover {
-	color: #222;
-	box-shadow: inset -1px -1px 0px #fff;
-	background-color: #B3DBFF;
+	color: #FFFFFF;
+	background-color: #33B5FF;
 }
 
 li.more_kw {
