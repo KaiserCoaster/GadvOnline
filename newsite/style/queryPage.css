@@ -33,7 +33,6 @@ li.noentries {
 	background-color:#0D8FE6;
 	color: #fff;
 	font-family: 'Open Sans', Verdana; 
-	text-shadow: 1px 1px 0px rgba(0,0,0,.8);
 	border-radius: 4px;
 	border: 2px solid #FBFBFB;
 }
@@ -45,7 +44,7 @@ li.noentries {
 }
 
 .entry .body {
-	padding:5px 15px 0px;
+	padding:5px 20px 0px;
 }
 
 .entry .body_keywords_divider {
@@ -179,7 +178,6 @@ li.noentries {
 	font-size:19px;
 	color: #fff;
 	font-family: 'Open Sans', Verdana; 
-	text-shadow: 1px 1px 0px rgba(0,0,0,.8);
 	text-decoration: none;
 }
 
@@ -224,23 +222,19 @@ li.page_num, li.page_num_disabled {
 
 li.page_num a, li.page_num_disabled a {
 	padding: 3px 7px;
-	border: 1px solid #1b4c95;
-	color: #fff;
 	text-decoration: none;
-	box-shadow: inset 1px 1px 0px #fff;
+	border-radius: 2px;
 }
 
 li.page_num a {
-	background-color: #0D8FE6;
-	border: 1px solid #1b4c95;
+	background-color: #FBFBFB;
+	border: 1px solid #c4c4c4;
+	border-bottom-color: #959595;
+	color: #21A1FF;
 }
 
-li.page_num a:hover {
-	background-color: #0B87DA;
-}
-
-li.page_num_disabled a {
-	padding: 6px 10px;
-	background-color: #999;
-	border: 1px solid #444;
+li.page_num_disabled a, li.page_num a:hover {
+	background-color: #21A1FF;
+	border: 1px solid #fff;
+	color: #fff;
 }
