@@ -106,8 +106,8 @@ li.noentries {
 
 .entry .entry_info {
 	color: #444;
-	border-top:1px solid #1b4c95;
-	background-color: #DBDBDB;
+	border-top:1px solid #c4c4c4;
+	background-color: #eeeeee;
 	display: none;
 }
 
@@ -120,7 +120,7 @@ li.noentries {
 	display: table-cell;
 	vertical-align: top;
 	width: 55%;
-	border-right: 1px solid #b8b8b8;
+	border-right: 1px solid #c4c4c4;
 	border-top: 1px solid #fff;
 }
 
@@ -145,8 +145,12 @@ li.noentries {
 	list-style-type: none;
 	font-family: Arial;
 	font-size: 12px;
-	border-bottom: 1px solid #b8b8b8;
+	border-bottom: 1px solid #c4c4c4;
 	border-top: 1px solid #fff;
+}
+
+.entry .entry_info .info_right .edit_history li:last-of-type {
+	border-bottom: none;
 }
 
 .entry .entry_info .info_right .edit_history li.b1 {
